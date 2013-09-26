@@ -1,0 +1,28 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: test_SSL_development
+  pool: 5
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: test_SSL_test
+  pool: 5
+  host: localhost
+
+staging:
+  adapter: postgresql
+  encoding: unicode
+  database: test_SSL_staging
+  pool: 5
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: test_SSL_production
+  pool: 5
+  host: localhost
+
